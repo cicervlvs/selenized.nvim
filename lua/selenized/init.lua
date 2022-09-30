@@ -6,15 +6,14 @@
 --   `:::::::::'   `::::::' .'   `:::::   .'   `::.     .'   `.       .'
 --     `':::''       `'::'-'       `'::.-'       `':..-'       `-...-'
 
--- Colorscheme name:    solarized.nvim
--- Description:         Port of VSCode's Solarized colorscheme for NeoVim
--- Author:              https://github.com/shaunsingh
+-- Colorscheme name:    selenized.nvim
+-- Author:              https://github.com/cicervlvs
 
-local util = require('solarized.util')
+local util = require('selenized.util')
 
 -- Load the theme
-local set = function ()
-    util.load()
+local set = function()
+  util.load()
 end
 
 return { set = set }

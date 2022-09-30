@@ -7,16 +7,16 @@
 "   `:::::::::'   `::::::' .'   `:::::   .'   `::.     .'   `.       .'
 "     `':::''       `'::'-'       `'::.-'       `':..-'       `-...-'
 "
-" Colorscheme name:    solarized.nvim
+" Colorscheme name:    selenized.nvim
 " Description:         Port of VSCode's Moonlight colorscheme for NeoVim
 " Author:              https://github.com/shaunsingh
 
 lua << EOF
-package.loaded['solarized'] = nil
-package.loaded['solarized.util'] = nil
-package.loaded['solarized.colors'] = nil
-package.loaded['solarized.theme'] = nil
-package.loaded['solarized.functions'] = nil
+package.loaded['selenized'] = nil
+package.loaded['selenized.util'] = nil
+package.loaded['selenized.colors'] = nil
+package.loaded['selenized.theme'] = nil
+package.loaded['selenized.functions'] = nil
 
-require('solarized').set()
+require('selenized').set()
 EOF
